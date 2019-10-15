@@ -52,8 +52,8 @@
         $('.whatsapp_addlink').click(function(){
           var phone = $('.whatsapp__phone').val();
           var text = encodeURI($('.whatsapp__text').val());
-          $('.whatsapp__link').text('https://wa.me/7'+phone+'?text='+text+'');
-          $('.whatsapp__link').attr('href','https://wa.me/7'+phone+'?text='+text+'');
+          $('.whatsapp__link').text('https://web.whatsapp.com/send?phone=7'+phone+'&text='+text+'');
+          $('.whatsapp__link').attr('href','https://web.whatsapp.com/send?phone=7'+phone+'&text='+text+'');
         });
       });
     </script>
